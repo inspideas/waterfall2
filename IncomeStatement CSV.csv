@@ -1,0 +1,161 @@
+﻿Breakdown,Breakdown Numer,BD Check,Company,Term Name,Term Year,Term M,Term Number,Term Number(Original),Statement Amt,Amt,Waterfall Amt,
+Total Revenue,1,O,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"182,527,000","182,527,000","182,527,000",収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"84,732,000","-84,732,000","97,795,000",コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"97,795,000","97,795,000","13,063,000",利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"56,571,000","-56,571,000","41,224,000",コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"41,224,000","41,224,000","-15,347,000",利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"1,730,000","1,730,000","42,954,000",非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"5,128,000","5,128,000","6,858,000",非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"48,082,000","48,082,000","53,210,000",利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"7,813,000","-7,813,000","40,269,000",税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"40,269,000","40,269,000","32,456,000",#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"40,269,000","40,269,000","80,538,000",株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,3,3,"40,269,003",EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,3,3,6,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"13,616,314","13,616,314","13,616,317",株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"13,740,554","13,740,554","27,356,868",株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"41,224,000","41,224,000","54,964,554",利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"141,303,000","141,303,000","182,527,000",コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"40,269,000","40,269,000","181,572,000",利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"35,266,572","35,266,572","75,535,572",利益
+Interest Income,20,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"1,865,000","1,865,000","37,131,572",非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"135,000","135,000","2,000,000",非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"1,730,000","1,730,000","1,865,000",非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"48,217,000","48,217,000","49,947,000",利益
+EBITDA,24,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"61,914,000","61,914,000","110,131,000",利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"84,732,000","84,732,000","146,646,000",コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"13,697,000","13,697,000","98,429,000",コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"40,269,000","40,269,000","53,966,000",#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"5,973,000","5,973,000","46,242,000",コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"5,973,000","5,973,000","11,946,000",コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"55,941,000","55,941,000","61,914,000",利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,0,0,"55,941,000",税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),12/31/2020,2020,2020,1,5,"970,572","970,572","970,572",税金
+Total Revenue,1,O,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"257,637,000","257,637,000","257,637,000",収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"110,939,000","-110,939,000","146,698,000",コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"146,698,000","146,698,000","35,759,000",利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"67,984,000","-67,984,000","78,714,000",コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"78,714,000","78,714,000","10,730,000",利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"1,153,000","1,153,000","79,867,000",非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"10,867,000","10,867,000","12,020,000",非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"90,734,000","90,734,000","101,601,000",利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"14,701,000","-14,701,000","76,033,000",税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"76,033,000","76,033,000","61,332,000",#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"76,033,000","76,033,000","152,066,000",株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,6,6,"76,033,006",EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,6,6,11,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"13,353,000","13,353,000","13,353,006",株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"13,553,000","13,553,000","26,906,000",株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"78,714,000","78,714,000","92,267,000",利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"178,923,000","178,923,000","257,637,000",コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"76,033,000","76,033,000","254,956,000",利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"65,951,860","65,951,860","141,984,860",利益
+Interest Income,20,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"1,499,000","1,499,000","67,450,860",非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"346,000","346,000","1,845,000",非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"1,153,000","1,153,000","1,499,000",非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"91,080,000","91,080,000","92,233,000",利益
+EBITDA,24,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"103,521,000","103,521,000","194,601,000",利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"110,939,000","110,939,000","214,460,000",コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"12,441,000","12,441,000","123,380,000",コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"76,033,000","76,033,000","88,474,000",#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"12,030,000","12,030,000","88,063,000",コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"12,030,000","12,030,000","24,060,000",コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"91,491,000","91,491,000","103,521,000",利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,0,0,"91,491,000",税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),12/31/2021,2021,2021,2,4,"1,948,860","1,948,860","1,948,860",税金
+Total Revenue,1,O,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"282,836,000","282,836,000","282,836,000",収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"126,203,000","-126,203,000","156,633,000",コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"156,633,000","156,633,000","30,430,000",利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"81,791,000","-81,791,000","74,842,000",コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"74,842,000","74,842,000","-6,949,000",利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"1,817,000","1,817,000","76,659,000",非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"-5,331,000","-5,331,000","-3,514,000",非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"71,328,000","71,328,000","65,997,000",利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"11,356,000","-11,356,000","59,972,000",税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"59,972,000","59,972,000","48,616,000",#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"59,972,000","59,972,000","119,944,000",株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,5,5,"59,972,005",EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,5,5,9,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"13,063,000","13,063,000","13,063,005",株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"13,159,000","13,159,000","26,222,000",株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"74,842,000","74,842,000","88,001,000",利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"207,994,000","207,994,000","282,836,000",コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"59,972,000","59,972,000","267,966,000",利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"65,163,493","65,163,493","125,135,493",利益
+Interest Income,20,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"2,174,000","2,174,000","67,337,493",非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"357,000","357,000","2,531,000",非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"1,817,000","1,817,000","2,174,000",非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"71,685,000","71,685,000","73,502,000",利益
+EBITDA,24,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"85,160,000","85,160,000","156,845,000",利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"126,203,000","126,203,000","211,363,000",コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"13,475,000","13,475,000","139,678,000",コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"59,972,000","59,972,000","73,447,000",#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"-6,173,000","-6,173,000","53,799,000",コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"-6,173,000","-6,173,000","-12,346,000",コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"91,333,000","91,333,000","85,160,000",利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,0,0,"91,333,000",税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),12/31/2022,2022,2022,3,3,"-981,507","-981,507","-981,507",税金
+Total Revenue,1,O,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"307,394,000","307,394,000","307,394,000",収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"133,332,000","-133,332,000","174,062,000",コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"174,062,000","174,062,000","40,730,000",利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"89,769,000","-89,769,000","84,293,000",コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"84,293,000","84,293,000","-5,476,000",利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"3,557,000","3,557,000","87,850,000",非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"-2,133,000","-2,133,000","1,424,000",非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"85,717,000","85,717,000","83,584,000",利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"11,922,000","-11,922,000","73,795,000",税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"73,795,000","73,795,000","61,873,000",#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"73,795,000","73,795,000","147,590,000",株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,6,6,"73,795,006",EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,6,6,12,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"12,630,000","12,630,000","12,630,006",株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"12,722,000","12,722,000","25,352,000",株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"84,293,000","84,293,000","97,015,000",利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"223,101,000","223,101,000","307,394,000",コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"73,795,000","73,795,000","296,896,000",利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"75,569,521","75,569,521","149,364,521",利益
+Interest Income,20,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"3,865,000","3,865,000","79,434,521",非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"308,000","308,000","4,173,000",非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"3,557,000","3,557,000","3,865,000",非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"86,025,000","86,025,000","89,582,000",利益
+EBITDA,24,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"97,971,000","97,971,000","183,996,000",利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"133,332,000","133,332,000","231,303,000",コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"11,946,000","11,946,000","145,278,000",コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"73,795,000","73,795,000","85,741,000",#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"-2,061,000","-2,061,000","71,734,000",コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"-2,061,000","-2,061,000","-4,122,000",コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"100,032,000","100,032,000","97,971,000",利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,0,0,"100,032,000",税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),12/31/2023,2023,2023,4,2,"-286,479","-286,479","-286,479",税金
+Total Revenue,1,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"339,859,000","339,859,000","339,859,000",収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"143,268,000","-143,268,000","196,591,000",コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"196,591,000","196,591,000","53,323,000",利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"91,476,000","-91,476,000","105,115,000",コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"105,115,000","105,115,000","13,639,000",利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,220,000","4,220,000","109,335,000",非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,649,000","2,649,000","6,869,000",非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"111,984,000","111,984,000","114,633,000",利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"17,715,000","-17,715,000","94,269,000",税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","76,554,000",#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","188,538,000",株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8,8,"94,269,008",EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8,8,15,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"12,384,000","12,384,000","12,384,008",株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"12,511,250","12,511,250","24,895,250",株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"105,115,000","105,115,000","117,626,250",利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"234,744,000","234,744,000","339,859,000",コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","329,013,000",利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"92,272,232","92,272,232","186,541,232",利益
+Interest Income,20,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,504,000","4,504,000","96,776,232",非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"284,000","284,000","4,788,000",非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,220,000","4,220,000","4,504,000",非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"112,268,000","112,268,000","116,488,000",利益
+EBITDA,24,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"126,690,000","126,690,000","238,958,000",利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"143,268,000","143,268,000","269,958,000",コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"14,422,000","14,422,000","157,690,000",コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","108,691,000",#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,372,000","2,372,000","96,641,000",コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,372,000","2,372,000","4,744,000",コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"124,318,000","124,318,000","126,690,000",利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,0,0,"124,318,000",税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"375,232","375,232","375,232",税金
