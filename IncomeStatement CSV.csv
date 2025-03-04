@@ -1,33 +1,33 @@
 ﻿Breakdown,Breakdown Numer,BD Check,Company,Term Name,Term Year,Term M,Term Number,Term Number(Original),Statement Amt,Amt,Waterfall Amt,
-Total Revenue,1,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"339,859,000","339,859,000","339,859,000",収入
-Cost of Revenue,2,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"143,268,000","-143,268,000","196,591,000",コスト
-Gross Profit,3,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"196,591,000","196,591,000","53,323,000",利益
-Operating Expense,4,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"91,476,000","-91,476,000","105,115,000",コスト
-Operating Income,5,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"105,115,000","105,115,000","13,639,000",利益
-Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,220,000","4,220,000","109,335,000",非営業利益/費用
-Other Income Expense,7,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,649,000","2,649,000","6,869,000",非営業利益/費用
-Pretax Income,8,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"111,984,000","111,984,000","114,633,000",利益
-Tax Provision,9,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"17,715,000","-17,715,000","94,269,000",税金
-Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","76,554,000",#N/A
-Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","188,538,000",株主関連
-Basic EPS,12,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8,8,"94,269,008",EPS
-Diluted EPS,13,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8,8,15,EPS
-Basic Average Shares,14,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"12,384,000","12,384,000","12,384,008",株主関連
-Diluted Average Shares,15,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"12,511,250","12,511,250","24,895,250",株主関連
-Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"105,115,000","105,115,000","117,626,250",利益
-Total Expenses,17,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"234,744,000","234,744,000","339,859,000",コスト
-Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","329,013,000",利益
-Normalized Income,19,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"92,272,232","92,272,232","186,541,232",利益
-Interest Income,20,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,504,000","4,504,000","96,776,232",非営業利益/費用
-Interest Expense,21,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"284,000","284,000","4,788,000",非営業利益/費用
-Net Interest Income,22,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"4,220,000","4,220,000","4,504,000",非営業利益/費用
-EBIT,23,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"112,268,000","112,268,000","116,488,000",利益
-EBITDA,24,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"126,690,000","126,690,000","238,958,000",利益
-Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"143,268,000","143,268,000","269,958,000",コスト
-Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"14,422,000","14,422,000","157,690,000",コスト
-Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"94,269,000","94,269,000","108,691,000",#N/A
-Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,372,000","2,372,000","96,641,000",コスト
-Total Unusual Items,29,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"2,372,000","2,372,000","4,744,000",コスト
-Normalized EBITDA,30,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"124,318,000","124,318,000","126,690,000",利益
-Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,0,0,"124,318,000",税金
-Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,"375,232","375,232","375,232",税金
+Total Revenue,1,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,339859000 ,339859000 ,339859000 ,収入
+Cost of Revenue,2,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,143268000 ,-143268000 ,196591000 ,コスト
+Gross Profit,3,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,196591000 ,196591000 ,53323000 ,利益
+Operating Expense,4,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,91476000 ,-91476000 ,105115000 ,コスト
+Operating Income,5,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,105115000 ,105115000 ,13639000 ,利益
+Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,4220000 ,4220000 ,109335000 ,非営業利益/費用
+Other Income Expense,7,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,2649000 ,2649000 ,6869000 ,非営業利益/費用
+Pretax Income,8,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,111984000 ,111984000 ,114633000 ,利益
+Tax Provision,9,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,17715000 ,-17715000 ,94269000 ,税金
+Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000 ,94269000 ,76554000 ,#N/A
+Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000 ,94269000 ,188538000 ,株主関連
+Basic EPS,12,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8 ,8 ,94269008 ,EPS
+Diluted EPS,13,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8 ,8 ,15 ,EPS
+Basic Average Shares,14,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,12384000 ,12384000 ,12384008 ,株主関連
+Diluted Average Shares,15,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,12511250 ,12511250 ,24895250 ,株主関連
+Total Operating Income as Reported,16,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,105115000 ,105115000 ,117626250 ,利益
+Total Expenses,17,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,234744000 ,234744000 ,339859000 ,コスト
+Net Income from Continuing & Discontinued Operation,18,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000 ,94269000 ,329013000 ,利益
+Normalized Income,19,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,92272232 ,92272232 ,186541232 ,利益
+Interest Income,20,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,4504000 ,4504000 ,96776232 ,非営業利益/費用
+Interest Expense,21,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,284000 ,284000 ,4788000 ,非営業利益/費用
+Net Interest Income,22,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,4220000 ,4220000 ,4504000 ,非営業利益/費用
+EBIT,23,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,112268000 ,112268000 ,116488000 ,利益
+EBITDA,24,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,126690000 ,126690000 ,238958000 ,利益
+Reconciled Cost of Revenue,25,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,143268000 ,143268000 ,269958000 ,コスト
+Reconciled Depreciation,26,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,14422000 ,14422000 ,157690000 ,コスト
+Net Income from Continuing Operation Net Minority Interest,27,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000 ,94269000 ,108691000 ,#N/A
+Total Unusual Items Excluding Goodwill,28,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,2372000 ,2372000 ,96641000 ,コスト
+Total Unusual Items,29,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,2372000 ,2372000 ,4744000 ,コスト
+Normalized EBITDA,30,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,124318000 ,124318000 ,126690000 ,利益
+Tax Rate for Calcs,31,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,0 ,0 ,124318000 ,税金
+Tax Effect of Unusual Items,32,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,375232 ,375232 ,375232 ,税金
