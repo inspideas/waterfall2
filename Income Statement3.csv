@@ -1,13 +1,13 @@
 ﻿Breakdown,Breakdown Number,Breakdown Type,Breakdown Type Number,Breakdown Check,Term,Term Number,Amt
-Revenues,1,Gross profit,1,,2024,5,350018
-Cost of revenues,2,Gross profit,1,,2024,5,-146306
-Gross profit,3,Gross profit,1,O,2024,5,203712
-Research and development,4,Income from operations,2,,2024,5,-49326
-Sales and marketing,5,Income from operations,2,,2024,5,-27808
-General and administrative,6,Income from operations,2,,2024,5,-14188
-Income from operations,7,Income from operations,2,O,2024,5,112390
-Interest income,8,"Other income (expense), net",3,,2024,5,4482
-Interest expense,9,"Other income (expense), net",3,,2024,5,-268
+Revenues,01,Gross profit,1,,2024,5,350018
+Cost of revenues,02,Gross profit,1,,2024,5,-146306
+Gross profit,03,Gross profit,1,O,2024,5,203712
+Research and development,04,Income from operations,2,,2024,5,-49326
+Sales and marketing,05,Income from operations,2,,2024,5,-27808
+General and administrative,06,Income from operations,2,,2024,5,-14188
+Income from operations,07,Income from operations,2,O,2024,5,112390
+Interest income,08,"Other income (expense), net",3,,2024,5,4482
+Interest expense,09,"Other income (expense), net",3,,2024,5,-268
 "Foreign currency exchange loss, net",10,"Other income (expense), net",3,,2024,5,-409
 "Gain (loss) on debt securities, net",11,"Other income (expense), net",3,,2024,5,-1043
 "Gain (loss) on equity securities, net",12,"Other income (expense), net",3,,2024,5,3714
