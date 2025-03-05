@@ -1,0 +1,20 @@
+﻿Breakdown,Breakdown Number,Breakdown Type,Breakdown Type Number,Breakdown Check,Term,Term Number,Amt
+Revenues,1,Gross profit,1,,2024,5,350018
+Cost of revenues,2,Gross profit,1,,2024,5,-146306
+Gross profit,3,Gross profit,1,O,2024,5,203712
+Research and development,4,Income from operations,2,,2024,5,-49326
+Sales and marketing,5,Income from operations,2,,2024,5,-27808
+General and administrative,6,Income from operations,2,,2024,5,-14188
+Income from operations,7,Income from operations,2,O,2024,5,112390
+Interest income,8,"Other income (expense), net",3,,2024,5,4482
+Interest expense,9,"Other income (expense), net",3,,2024,5,-268
+"Foreign currency exchange loss, net",10,"Other income (expense), net",3,,2024,5,-409
+"Gain (loss) on debt securities, net",11,"Other income (expense), net",3,,2024,5,-1043
+"Gain (loss) on equity securities, net",12,"Other income (expense), net",3,,2024,5,3714
+Performance fees,13,"Other income (expense), net",3,,2024,5,218
+"Income (loss) and impairment from equity method investments, net",14,"Other income (expense), net",3,,2024,5,-188
+Other,15,"Other income (expense), net",3,,2024,5,919
+"Other income (expense), net",16,"Other income (expense), net",3,O,2024,5,7425
+Income before income taxes,17,Net income,4,O,2024,5,119815
+Provision for income taxes,18,Net income,4,,2024,5,-19697
+Net income,19,Net income,4,O,2024,5,100118
