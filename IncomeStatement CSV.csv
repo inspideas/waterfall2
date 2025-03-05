@@ -1,13 +1,13 @@
 ﻿Breakdown,Breakdown Numer,BD Check,Company,Term Name,Term Year,Term M,Term Number,Term Number(Original),Statement Amt,Amt,Waterfall Amt,
-Total Revenue,1,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,339859000,339859000,339859000,収入
-Cost of Revenue,2,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,143268000,-143268000,196591000,コスト
-Gross Profit,3,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,196591000,196591000,53323000,利益
-Operating Expense,4,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,91476000,-91476000,105115000,コスト
-Operating Income,5,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,105115000,105115000,13639000,利益
-Net Non Operating Interest Income Expense,6,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,4220000,4220000,109335000,非営業利益/費用
-Other Income Expense,7,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,2649000,2649000,6869000,非営業利益/費用
-Pretax Income,8,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,111984000,111984000,114633000,利益
-Tax Provision,9,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,17715000,-17715000,94269000,税金
+Total Revenue,01,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,339859000,339859000,339859000,収入
+Cost of Revenue,02,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,143268000,-143268000,196591000,コスト
+Gross Profit,03,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,196591000,196591000,53323000,利益
+Operating Expense,04,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,91476000,-91476000,105115000,コスト
+Operating Income,05,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,105115000,105115000,13639000,利益
+Net Non Operating Interest Income Expense,06,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,4220000,4220000,109335000,非営業利益/費用
+Other Income Expense,07,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,2649000,2649000,6869000,非営業利益/費用
+Pretax Income,08,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,111984000,111984000,114633000,利益
+Tax Provision,09,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,17715000,-17715000,94269000,税金
 Net Income Common Stockholders,10,O,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000,94269000,76554000,#N/A
 Diluted NI Available to Com Stockholders,11,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,94269000,94269000,188538000,株主関連
 Basic EPS,12,,Alphabet Inc. (GOOGL),TTM,TTM,TTM,5,1,8,8,94269008,EPS
