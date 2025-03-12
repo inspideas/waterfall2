@@ -1,0 +1,316 @@
+{
+  "data": {"name": "dataset"},
+
+  "params": [
+    {"name": "col_start", "value": "#bbb"},
+    {"name": "col_end", "value": "#bbb"},
+    {"name": "col_subtotal", "value": "#f7e0b6"},
+    {"name": "col_pos", "expr": "pbiColor('positive')"},
+    {"name": "col_neg", "expr": "pbiColor('negative')"}
+  ],
+
+   "encoding": {
+      "x": {
+        "axis":null,
+        "field": "Breakdown Number",
+        "type": "ordinal",
+      
+        "sort": {
+          "field": "Breakdown Number", 
+          "order": "ascending"},
+        "title": null      
+        },
+    
+       "y": {
+        "axis": null,
+        "type": "quantitative"
+        },
+        "text": {
+          "field": "Breakdown",
+          "type": "nominal"
+          }
+     },
+"transform": [
+  {
+    "sort": [{ "field": "Breakdown Number", "order": "ascending" }],
+    "window": [
+      {
+        "op": "lead",
+        "field": "Total Amt",
+        "as": "following"
+      },
+      {
+        "op": "lag",
+        "field": "Total Amt",
+        "as": "previous"
+      },
+      {
+        "op": "lag",
+        "field": "Breakdown Number",
+        "as": "order_previous"
+      },
+      {
+        "op": "lead",
+        "field": "Breakdown Number",
+        "as": "order_following"
+      },
+      {
+        "op": "lag",
+        "field": "Breakdown Type",
+        "as": "type_previous"
+      }
+    ]
+  },
+  {
+    "calculate": "datum['Breakdown Check'] === 'O' ? 0 : datum['Total Amt']",
+    "as": "Total_Amt_Adjusted"
+  },
+  {
+    "window": [
+      {
+        "op": "sum",
+        "field": "Total_Amt_Adjusted",
+        "as": "Cumulative_Total_Amt"
+      }
+    ],
+    "frame": [null, 0],
+    "sort": [{ "field": "Breakdown Number", "order": "ascending" }]
+  },
+  {
+    "window": [
+      {
+        "op": "lag",
+        "field": "Cumulative_Total_Amt",
+        "as": "FinalCumulative_Total_Amt"
+      }
+    ],
+    "sort": [{ "field": "Breakdown Number", "order": "ascending" }]
+  },
+  {
+    "window": [
+      { "op": "min", "field": "Breakdown Type Number", "as": "minType" },
+      { "op": "max", "field": "Breakdown Type Number", "as": "maxType" }
+    ],
+    "frame": [null, null]
+  },
+  {
+    "calculate": "(datum.previous === null || datum.following == null || datum['Breakdown Check'] === 'O') ? datum['Total Amt'] : datum['FinalCumulative_Total_Amt']",
+    "as": "bar_previous"
+  },
+  {
+    "calculate": "(datum.previous === null || datum.following == null || datum['Breakdown Check'] === 'O') ? 0 : datum['Cumulative_Total_Amt']",
+    "as": "bar_following"
+  },
+  {
+    "calculate": "(datum['bar_previous'] + datum.bar_following) / 2",
+    "as": "center"
+  },
+  {
+    "calculate": "(datum['bar_previous'] - 10)",
+    "as": "labelband"
+  }
+],
+ 
+
+"layer": [
+  {"layer": [
+ {
+  "description": "CATEGORY BACKGROUND",
+
+  "mark": {
+    "type": "rect",
+    "opacity": 0.1  // 透明度の調整
+  },
+  "encoding": {
+    "x": {
+      
+      "field": "Breakdown Number",
+      "type": "ordinal"
+      
+      
+     },
+    "y": {
+      "value": 0
+    },
+    "y2": {
+      "aggregate":{"argmax": "Total Amt"}
+    },
+    
+    "color": {
+      "field": "Breakdown Type Number",
+      "type": "nominal",
+      "scale": {
+        "domainMin":{"expr": "minType"},
+        "domainMax":{"expr": "maxType"},
+       // Breakdown Typeの数値
+        "range": ["#F48483", "#A86974", "#EFEEDA", "#528894"]  // 各カテゴリの背景色
+      },
+        "legend": null 
+        }
+      }
+  }]},
+ 
+  {
+    "layer": [
+       {
+        "description": "PROFIT/ COST BARS",
+        "transform": [{
+          "filter": "datum['following'] != null && datum['previous'] != null"}],
+          "mark": {
+            "type": "bar", 
+            "tooltip": true},
+          "encoding": {
+            "tooltip": [
+              {"field": "Total Amt", 
+              "type": "quantitative", 
+              "formatType": "pbiFormat", 
+              "format": "#,0"},
+              {"field": "Breakdown", 
+              "type": "quantitative", 
+              "formatType": "pbiFormat", 
+              "format": "#,0", 
+              "title": "detail"}
+            ],
+            "y": {"field": "bar_previous"},
+            "y2": {"field": "bar_following"},
+            "fill": {
+              "condition": [{
+                "test": "datum['Total_Amt_Adjusted'] < 0", "value": "#F48483"}],
+                "value": "#528894"
+                }
+            }
+        },
+        {
+          "description": "TOTAL REV/ TOTAL PROFIT",
+          "transform": [{"filter": "datum.previous === null || datum.following === null"}],
+          "mark": {
+            "type": "bar",
+            "color": {
+              "x1": 1,
+              "y1": 1,
+              "x2": 1,
+              "y2": 0,
+              "gradient": "linear",
+              "stops": [{"offset": 0, "color": "#FFF"}, {"offset": 1, "color": "#886847"}]
+            }
+          },
+          "encoding": {
+            "x": {"field": "Breakdown Number", "type": "nominal"},
+            "y": {"field": "Total Amt", "type": "quantitative"}
+          }
+        },
+        {
+          "description": "SUBTOTAL BARS",
+          "transform": [{"filter": "datum['Breakdown Check'] === 'O'"}],
+          "mark": {
+            "type": "bar",
+            "color": {
+              "x1": 1,
+              "y1": 1,
+              "x2": 1,
+              "y2": 0,
+              "gradient": "linear",
+              "stops": [{"offset": 0, "color": "#FFF"}, {"offset": 1, "color": "#886847"}]
+            }
+          },
+          "encoding": {
+            "x": {"field": "Breakdown Number", "type": "nominal"},
+            "y": {"field": "Total Amt", "type": "quantitative"}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "description": "LINES CONNECTING VALUES",
+             "transform": [{
+                "filter": "datum['previous'] != null"}
+                ],
+          "mark": {
+            "type": "rule",
+            "style": "bar_connectors",
+            "xOffset": -19,
+            "x2Offset": 19.5
+
+          },
+          "encoding": {
+            "x": {"field": "order_previous", "type": "nominal"},
+            "x2": {"field": "Breakdown Number"},
+            "y": {"field": "bar_previous", "type": "quantitative"}
+          }
+        },
+        {
+          "description": "TotalValues",
+           "transform": [{"filter": "datum.bar_following>0 "}],
+      
+          "mark": {
+            "type": "text",
+            "dy":  10,
+            "baseline": "top"
+          },
+          "encoding": {
+            "y": {"field": "Cumulative_Total_Amt", "type": "quantitative"},
+            "text": {"field": "Cumulative_Total_Amt", "type": "nominal"}
+          }
+        },
+      {
+        "description": "Values",
+        "mark": {
+        "type": "bar",
+        "opacity": 0.5 ,
+        "yOffset":-20,
+        "y2Offset":-5,
+        "width": {"band": 0.9},
+        "cornerRadius": 5},
+        "encoding": {
+        
+          "y": {
+            "field": "bar_previous", 
+            "type": "quantitative"},
+          "y2": {"field": "labelband"},
+          "text": {"field": "Total Amt", "type": "nominal"},
+          "color": {
+            "condition": [{
+              "test": "datum.bar_following === 0",
+              "value": "#725a30"
+              },
+              {
+                "test": "datum['Total Amt'] < 0",
+                "value": "#F48483"
+              }
+            ],
+            "value": "#528894"
+          }
+        }
+      },
+
+      {
+        "description": "Values",
+        "mark": {
+        "type": "text", 
+        "fontWeight": "bold", 
+        "baseline": "middle",
+        "yOffset":-10},
+        "encoding": {
+          "y": {
+            "field": "bar_previous", 
+            "type": "quantitative"},
+          "text": {
+            "field": "Total Amt", 
+            "type": "nominal"},
+          "color": {
+            "condition": [
+              {
+                "test": "datum.bar_following === 0",
+                "value": "white"
+              }
+            ],
+            "value": "#725a30"
+          }
+        }
+      }
+    ]
+    }
+  ]
+}
